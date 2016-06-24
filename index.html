@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>rem and scss - demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="stylesheet" href="css/css.css"/>
+  <script type="text/javascript" src="js/js.js"></script>
+
+</head>
+<body>
+  <br/> 
+  <h3>下面的导航栏字体随页面大小变化 等比显示</h3> <br/> 
+  <!--字体大小随页面大小而变化 -->
+  <div id="header">
+    <div class="nav">
+      <div class="swiper-slide">新闻1</div>
+      <div class="swiper-slide">财经2</div>
+      <div class="swiper-slide">娱乐3</div>
+      <div class="swiper-slide">体育4</div>
+      <div class="swiper-slide">订阅5</div>
+      <div class="swiper-slide">微博6</div>
+      <div class="swiper-slide">空间7</div>
+      <div class="swiper-slide">书城8</div>
+    </div>
+  </div>
+
+  <br/>
+  <h3>图片大小随页面大小而变化 等比缩放</h3><br/>
+  <div class="img">
+    <img src="images/0.jpg" />
+    <img src="images/1.jpg" />
+  </div>
+  <div style="clear: both;"></div>
+  <br/>
+  <br/>
+  <!--比较小的元素 在个别浏览器 显示效果不理想 因为浏览器 对rem 支持精度不一样 -->
+  <h3>下面的圆点在不同浏览下会出现不规则形状</h3>  <br/>
+  <div class="ddRem">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+  </div>
+
+  <br/>
+  <br/>
+
+  <h3>替代办法就是把圆点 改为像素"px" 来显示兼容最好</h3>  <br/>
+  <div class="dd">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+  </div>
+
+</body>
+</html>
